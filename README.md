@@ -8,7 +8,7 @@
 
 # Technologies
 
-Java version: 11 Postgres database docker-compose Flyway Hibernate Slf4j+logback Lombok
+Java version: 11 Postgres database docker-compose Flyway Hibernate Slf4j+logback Lombok Spring MVC
 
 How to use:
 
