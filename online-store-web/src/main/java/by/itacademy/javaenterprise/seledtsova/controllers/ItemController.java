@@ -66,7 +66,7 @@ public class ItemController {
     }
 
     private void saveImage(String filename, MultipartFile multipartFile) throws IOException {
-        File file = new File("C:\\Users\\kan38\\IdeaProjects\\lecture-25\\online-store-web\\src\\main\\resources" + filename);
+        File file = new File("/resources/" + filename);
         FileUtils.writeByteArrayToFile(file, multipartFile.getBytes());
         logger.info(file.getAbsolutePath());
     }
